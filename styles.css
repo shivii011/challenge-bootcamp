@@ -1,0 +1,34 @@
+body{
+    padding:10px 30px;
+}
+
+/* navigation bar */
+.navbar{
+    color:black;
+   ;
+
+}
+.bar{
+    padding-left :20px;
+  
+}
+.coloumns{
+    display:flex;
+}
+.main-header{
+    text-align: center;
+}
+.main-footer-1{
+    display:flex;
+}
+.main-footer-2{
+    display:flex;
+}
+.heading{
+    padding: 20px 0px;
+}
+ .card{size:446px;
+ margin-bottom: 30px;
+ height: 300px;
+ display: flex;
+}
