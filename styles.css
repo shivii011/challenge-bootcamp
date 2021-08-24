@@ -1,34 +1,50 @@
 body{
     padding:10px 30px;
+    /* background-color: #C9CCD5; */
 }
 
 /* navigation bar */
 .navbar{
     color:black;
-   ;
-
+     border-style: solid;
+     border-color:darkgrey;
 }
-.bar{
+.nav-item{
+    padding:-5px;
+}
+/* .bar{
     padding-left :20px;
   
-}
+} */
 .coloumns{
     display:flex;
+    margin-top:40px;
+}
+.col-header{
+    padding:10px 20px 10px ;
 }
 .main-header{
     text-align: center;
+    margin-top:20px;
 }
-.main-footer-1{
-    display:flex;
+.table{
+    text-align: center;
 }
-.main-footer-2{
-    display:flex;
-}
+
+
 .heading{
     padding: 20px 0px;
 }
  .card{size:446px;
  margin-bottom: 30px;
  height: 300px;
- display: flex;
+ display:grid;
+}
+.card-footer{
+    text-align: center;
+    display: flex;
+}
+.card-header{
+    display:grid ;
+    background-color: blueviolet;
 }
