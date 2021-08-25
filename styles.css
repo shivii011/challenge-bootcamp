@@ -5,9 +5,14 @@ body{
 
 /* navigation bar */
 .navbar{
-    color:black;
-     border-style: solid;
-     border-color:darkgrey;
+    text-color:dark;
+    border-style:solid;
+    border-color:#F0F1F2;
+    padding:5px;
+    box-shadow:#F0F1F2;
+}
+.navbrand{
+    padding-right:900px;
 }
 .nav-item{
     padding:-5px;
