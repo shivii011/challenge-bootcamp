@@ -15,12 +15,10 @@ body{
     padding-right:900px;
 }
 .nav-item{
-    padding:-5px;
+    padding:5px;
+    text-decoration: none; 
+    color: rgba(0, 0, 0, 0.85);
 }
-/* .bar{
-    padding-left :20px;
-  
-} */
 .coloumns{
     display:flex;
     margin-top:40px;
@@ -28,28 +26,68 @@ body{
 .col-header{
     padding:10px 20px 10px ;
 }
+/* 2nd nav bar */
+.nav-bar-2{
+    ;
+}
+.navigation{
+    margin: 50px;
+    list-style:none;
+    border: solid 3px lightgray;
+    display:flex;
+    width: 1320px;
+    height:103px;
+    justify-content:space-evenly;
+    padding-top: 40px;
+
+
+}
+.nav-li{
+    text-decoration: none;
+    margin:0 5px;
+    list-style: none;
+
+}
+.card-header{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-1{
+    background: linear-gradient(97.66deg, #2F80ED 0.94%, rgba(123, 174, 244, 0.635417) 73.96%, rgba(150, 191, 246, 0.504346) 83.82%, rgba(255, 255, 255, 0) 121.8%),
+    linear-gradient(0deg, #56CCF2, #56CCF2);
+    width: 599px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    
+}
+.card-2{
+background: linear-gradient(296.48deg, #87E8DE -14.41%, rgba(181, 241, 235, 0.613161) 25.24%, rgba(255, 255, 255, 0) 100%),
+    linear-gradient(0deg, #13C2C2, #13C2C2);
+    width: 599px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    
+
+}
+.card-container{
+    margin:60px;
+    color:#fff;
+}
+.paragraph{
+width:480px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .main-header{
     text-align: center;
     margin-top:20px;
 }
-.table{
-    text-align: center;
-}
+
 
 
 .heading{
     padding: 20px 0px;
-}
- .card{size:446px;
- margin-bottom: 30px;
- height: 300px;
- display:grid;
-}
-.card-footer{
-    text-align: center;
-    display: flex;
-}
-.card-header{
-    display:grid ;
-    background-color: blueviolet;
 }
